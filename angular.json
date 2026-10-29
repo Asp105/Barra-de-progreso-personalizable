@@ -2,11 +2,12 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "e4bd80f5-d59e-4e9d-bf8e-673c4f3a23ad"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "BarraProgresopersonalizable": {
+    "progress-bar": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +57,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "BarraProgresopersonalizable:build:production"
+              "buildTarget": "progress-bar:build:production"
             },
             "development": {
-              "buildTarget": "BarraProgresopersonalizable:build:development"
+              "buildTarget": "progress-bar:build:development"
             }
           },
           "defaultConfiguration": "development"
